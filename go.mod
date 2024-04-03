@@ -3,42 +3,42 @@ module github.com/juanfont/headscale
 go 1.18
 
 require (
-	github.com/AlecAivazis/survey/v2 v2.3.4
-	github.com/ccding/go-stun/stun v0.0.0-20200514191101-4dc67bcdb029
-	github.com/coreos/go-oidc/v3 v3.1.0
+	github.com/AlecAivazis/survey/v2 v2.3.7
+	github.com/ccding/go-stun/stun v0.1.4
+	github.com/coreos/go-oidc/v3 v3.10.0
 	github.com/efekarakus/termcolor v1.0.1
 	github.com/fatih/set v0.2.1
-	github.com/gin-gonic/gin v1.7.7
-	github.com/glebarez/sqlite v1.4.3
-	github.com/gofrs/uuid v4.2.0+incompatible
-	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.10.0
-	github.com/klauspost/compress v1.15.1
-	github.com/ory/dockertest/v3 v3.8.1
+	github.com/gin-gonic/gin v1.9.1
+	github.com/glebarez/sqlite v1.11.0
+	github.com/gofrs/uuid v4.4.0+incompatible
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.1.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.19.1
+	github.com/klauspost/compress v1.17.7
+	github.com/ory/dockertest/v3 v3.10.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/philip-bui/grpc-zerolog v1.0.1
-	github.com/prometheus/client_golang v1.12.1
-	github.com/pterm/pterm v0.12.41
-	github.com/rs/zerolog v1.26.1
-	github.com/spf13/cobra v1.4.0
-	github.com/spf13/viper v1.11.0
-	github.com/stretchr/testify v1.7.1
-	github.com/tailscale/hujson v0.0.0-20220421170326-6583d0610064
+	github.com/prometheus/client_golang v1.19.0
+	github.com/pterm/pterm v0.12.79
+	github.com/rs/zerolog v1.32.0
+	github.com/spf13/cobra v1.8.0
+	github.com/spf13/viper v1.18.2
+	github.com/stretchr/testify v1.9.0
+	github.com/tailscale/hujson 20486734a56a
 	github.com/tcnksm/go-latest v0.0.0-20170313132115-e3007ae9052e
 	github.com/zsais/go-gin-prometheus v0.1.0
-	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
-	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	google.golang.org/genproto v0.0.0-20220422154200-b37d22cd5731
-	google.golang.org/grpc v1.46.0
-	google.golang.org/protobuf v1.28.0
+	golang.org/x/crypto v0.21.0
+	golang.org/x/oauth2 v0.18.0
+	golang.org/x/sync v0.6.0
+	google.golang.org/genproto c3f982113cda
+	google.golang.org/grpc v1.62.1
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
-	gopkg.in/yaml.v2 v2.4.0
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	gorm.io/driver/postgres v1.3.5
-	gorm.io/gorm v1.23.4
+	gopkg.in/yaml.v3 v3.0.1
+	gopkg.in/yaml.v3 v3.0.1
+	gorm.io/driver/postgres v1.5.7
+	gorm.io/gorm v1.25.9
 	inet.af/netaddr v0.0.0-20211027220019-c74959edd3b6
-	tailscale.com v1.24.0
+	tailscale.com v1.62.1
 )
 
 require (
